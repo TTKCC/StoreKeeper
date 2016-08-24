@@ -16,12 +16,9 @@ public class HomePage extends javax.swing.JFrame {
 
     public HomePage() {
         initComponents();
-        Toolkit d = Toolkit.getDefaultToolkit();
-        int x = (int) d.getScreenSize().getWidth();
-        int y = (int) d.getScreenSize().getHeight();
-        this.setSize(x, y);
+        this.setExtendedState(HomePage.MAXIMIZED_BOTH);
         this.setAlwaysOnTop(true);
-        setTitle("StoreKeeper 1.0.1");
+        this.setTitle("StoreKeeper 1.0.1");
 
         /*jTabbedPane1.addTab(" Müştərilər ", new ImageIcon("icon/SEO_Icon.png"), panelMusteriler);
         jTabbedPane1.addTab(" Mallar ", new ImageIcon("icon/ShoppingBasketIcon.png"), panelMallar);
@@ -2684,15 +2681,9 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
@@ -2768,7 +2759,6 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
-    private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
@@ -2782,13 +2772,8 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel27;
     private javax.swing.JPanel jPanel28;
     private javax.swing.JPanel jPanel29;
-    private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel30;
     private javax.swing.JPanel jPanel31;
-    private javax.swing.JPanel jPanel32;
-    private javax.swing.JPanel jPanel33;
-    private javax.swing.JPanel jPanel34;
-    private javax.swing.JPanel jPanel35;
     private javax.swing.JPanel jPanel36;
     private javax.swing.JPanel jPanel37;
     private javax.swing.JPanel jPanel38;
@@ -2858,11 +2843,8 @@ public class HomePage extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane10;
     private javax.swing.JTabbedPane jTabbedPane11;
     private javax.swing.JTabbedPane jTabbedPane12;
-    private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTabbedPane jTabbedPane3;
     private javax.swing.JTabbedPane jTabbedPane4;
-    private javax.swing.JTabbedPane jTabbedPane5;
-    private javax.swing.JTabbedPane jTabbedPane6;
     private javax.swing.JTabbedPane jTabbedPane7;
     private javax.swing.JTabbedPane jTabbedPane8;
     private javax.swing.JTabbedPane jTabbedPane9;
